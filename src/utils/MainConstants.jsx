@@ -108,7 +108,7 @@ export const projects = [
       "Express.js",
     ],
     gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
-    src: "https://pompositienda-f5t5w3dl9-debbiezuletas-projects.vercel.app/",
+    src: "https://portafolio-debbie-zuleta.vercel.app/",
   },
   {
     title: "Peoria Toyota Dealer",
@@ -116,7 +116,7 @@ export const projects = [
       "Toyota Dealer is a platform for viewing and managing vehicle inventory, scheduling test drives, and handling customer inquiries.",
     tags: ["CMS", "JavaScript", "Bootstrap", "Css", "HTML"],
     gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
-    src: "https://peoriatoyota7401nallenrd2.cms.dealer.com/",
+    src: "https://peoriatoyota7401nallenrd2.cms.dealer.com",
   },
   {
     title: "Las Vegas West Cadillac Dealer",
@@ -132,7 +132,7 @@ export const projects = [
       "Ford Dealer is a platform for viewing and managing vehicle inventory, scheduling test drives, and handling customer inquiries.",
     tags: ["CMS", "JavaScript", "Bootstrap", "Css", "HTML"],
     gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
-    src: "https://www.theforddealer.com/",
+    src: "https://www.theforddealer.com",
   },
 
   
