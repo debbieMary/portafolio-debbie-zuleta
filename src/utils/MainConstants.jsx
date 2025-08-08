@@ -143,14 +143,6 @@ export const projects = [
     src: "https://ciocbolivia.com",
   },
   {
-    title: "Sociedad ORL Bolivia",
-    description:
-      "A comprehensive management system that handles patient registration, appointment scheduling, payment processing, and electronic medical records (EMR) – all in one integrated platform designed for healthcare providers.",
-    tags: [".NET", "JavaScript", "React.js"],
-    gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
-    src: "https://ciocbolivia.com",
-  },
-  {
     title:
       "Bolivian Society of Otorhinolaryngology – Institutional Digital Platform",
     description:
