@@ -29,10 +29,6 @@ export default function HeroSection() {
         Mobile & FrontEnd Dev ✨ 13+ years creating apps with passion
       </p>
 
-      {/* Floating animated elements */}
-      <div className="absolute top-20 left-10 w-8 h-8 rounded-full bg-pink-500/30 animate-float-1"></div>
-      <div className="absolute bottom-1/4 right-20 w-12 h-12 rounded-full bg-purple-500/30 animate-float-2"></div>
-      <div className="absolute top-1/3 right-1/4 w-6 h-6 rounded-full bg-indigo-500/30 animate-float-3"></div>
-    </section>        
+       </section>        
   )
 }

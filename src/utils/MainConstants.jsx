@@ -84,7 +84,7 @@ export const projects = [
     testData: "user:wedinib949@iridales.com, password:wedinib949!",
     tags: ["React", "Node.js", "Supabase", "Styled Components"],
     gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
-    src: "https://the-wild-oasis-t3uo.vercel.app/",
+    src: "https://the-wild-oasis-t3uo.vercel.app",
   },
   {
     title: "Wild Oasis Website",
@@ -92,7 +92,7 @@ export const projects = [
       "A booking platform where users can view rooms, make reservations, and manage their accounts.",
     tags: ["Next.js", "JavaScript", "Tailwind", "Oauth", "Supabase"],
     gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
-    src: "https://the-wild-oasis-website-2-pied.vercel.app/",
+    src: "https://the-wild-oasis-website-2-pied.vercel.app",
   },
   {
     title: "Pompositienda",
@@ -108,7 +108,7 @@ export const projects = [
       "Express.js",
     ],
     gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
-    src: "https://pompositienda.vercel.app/",
+    src: "https://pompositienda.vercel.app",
   },
   {
     title: "Peoria Toyota Dealer",
@@ -134,6 +134,13 @@ export const projects = [
     gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
     src: "https://www.theforddealer.com",
   },
-
+{
+    title: "CIOC Bolivia",
+    description:
+      "a comprehensive management system that handles patient registration, appointment scheduling, payment processing, and electronic medical records (EMR) – all in one integrated platform designed for healthcare providers.",
+    tags: ["Next.js", "JavaScript", "Tailwind", "Oauth", "Supabase"],
+    gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
+    src: "https://ciocbolivia.com/",
+  },
   
 ];
