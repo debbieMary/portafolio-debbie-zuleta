@@ -108,7 +108,7 @@ export const projects = [
       "Express.js",
     ],
     gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
-    src: "https://portafolio-debbie-zuleta.vercel.app/",
+    src: "https://pompositienda.vercel.app/",
   },
   {
     title: "Peoria Toyota Dealer",
