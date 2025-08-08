@@ -134,13 +134,29 @@ export const projects = [
     gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
     src: "https://www.theforddealer.com",
   },
-{
+  {
     title: "CIOC Bolivia",
     description:
-      "a comprehensive management system that handles patient registration, appointment scheduling, payment processing, and electronic medical records (EMR) – all in one integrated platform designed for healthcare providers.",
+      "A comprehensive management system that handles patient registration, appointment scheduling, payment processing, and electronic medical records (EMR) – all in one integrated platform designed for healthcare providers.",
     tags: ["Next.js", "JavaScript", "Tailwind", "Oauth", "Supabase"],
     gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
-    src: "https://ciocbolivia.com/",
+    src: "https://ciocbolivia.com",
   },
-  
+  {
+    title: "Sociedad ORL Bolivia",
+    description:
+      "A comprehensive management system that handles patient registration, appointment scheduling, payment processing, and electronic medical records (EMR) – all in one integrated platform designed for healthcare providers.",
+    tags: [".NET", "JavaScript", "React.js"],
+    gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
+    src: "https://ciocbolivia.com",
+  },
+  {
+    title:
+      "Bolivian Society of Otorhinolaryngology – Institutional Digital Platform",
+    description:
+      "A professional website designed to centralize specialized knowledge and strengthen the otorhinolaryngology community in Bolivia.",
+    tags: [".NET", "JavaScript", "React.js"],
+    gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
+    src: "https://sociedadorlbolivia.com",
+  },
 ];
