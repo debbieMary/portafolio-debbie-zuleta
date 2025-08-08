@@ -139,7 +139,7 @@ export const projects = [
     description:
       "a comprehensive management system that handles patient registration, appointment scheduling, payment processing, and electronic medical records (EMR) – all in one integrated platform designed for healthcare providers.",
     tags: ["Next.js", "JavaScript", "Tailwind", "Oauth", "Supabase"],
-    gradient: "bg-gradient-to-br from-amber-400 to-orange-500",
+    gradient: "bg-gradient-to-br from-pink-500 to-purple-600",
     src: "https://ciocbolivia.com/",
   },
   
