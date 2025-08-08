@@ -16,16 +16,16 @@ export default function NavBar({ isOpen, setIsOpen }) {
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-8">
                 <a href="#" className="text-purple-900 hover:text-pink-600 px-3 py-2 font-medium transition-all hover:scale-105">
-                  Inicio
+                  Home
                 </a>
                 <a href="#skills" className="text-purple-900 hover:text-pink-600 px-3 py-2 font-medium transition-all hover:scale-105">
                   Skills
                 </a>
                 <a href="#projects" className="text-purple-900 hover:text-pink-600 px-3 py-2 font-medium transition-all hover:scale-105">
-                  Proyectos
+                  Projects
                 </a>
                 <a href="#contact" className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-2 rounded-full font-medium shadow-lg hover:shadow-pink-300 transition-all hover:scale-105">
-                  Contacto
+                  Contact
                 </a>
               </div>
             </div>

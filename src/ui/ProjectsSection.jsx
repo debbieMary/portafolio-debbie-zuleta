@@ -5,7 +5,7 @@ export default function ProjectsSection({projects}) {
     <section id="projects" className="py-20">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">
-              Proyectos ÉPICOS
+              Portfolio Highlights
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -17,6 +17,8 @@ export default function ProjectsSection({projects}) {
                   <div className="bg-white rounded-2xl p-8 h-full">
                     <h3 className="text-2xl font-bold text-gray-800 mb-3">{project.title}</h3>
                     <p className="text-gray-600 mb-4">{project.description}</p>
+                    <p className="text-blue-600 mb-4"><a href={project.src} target="_blank" rel="noopener noreferrer">{project.src}</a></p>
+                    <p className="text-purple-600 mb-4">{project.testData}</p>
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag, i) => (
                         <span key={i} className="inline-block px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-xs font-medium">
