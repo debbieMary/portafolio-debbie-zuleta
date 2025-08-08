@@ -16,7 +16,7 @@ export const skills = [
     name: "React/Next.js",
     icon: "⚛️",
     color: "bg-indigo-100 text-indigo-800",
-    years: "1 year",
+    years: "3 years",
   },
   {
     name: "Node.js",
