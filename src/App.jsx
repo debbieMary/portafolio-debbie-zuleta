@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "./ui/NavBar";
 import HeroSection from "./ui/HeroSection";
 import LiveCodingSection from "./ui/LiveCodingSection";
-import { codeLines, projects, skills } from "./utils/MainConstants";
 import SkillsSection from "./ui/SkillsSection";
 import ProjectsSection from "./ui/ProjectsSection";
 import Header from "./ui/Header";
@@ -12,8 +11,10 @@ import ContactSection from "./ui/ContactSection";
 export default function App() {
   const [isOpen, setIsOpen] = React.useState(false);
 
+
   return (
     <>
+
       <Header />
       {/* ==== NAVBAR RESPONSIVO ==== */}
       <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
@@ -29,13 +30,13 @@ export default function App() {
         <HeroSection />
 
         {/* ==== LIVE CODING SECTION ==== */}
-        <LiveCodingSection codeLines={codeLines} />
+        <LiveCodingSection/>
 
         {/* ==== SKILLS SECTION ==== */}
 
-        <SkillsSection skills={skills} />
+        <SkillsSection/>
         {/* ==== PROJECTS SECTION ==== */}
-        <ProjectsSection projects={projects} />
+        <ProjectsSection/>
         {/* ==== CONTACT SECTION ==== */}
 
         <ContactSection />

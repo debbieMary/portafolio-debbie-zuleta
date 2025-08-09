@@ -1,6 +1,9 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import debbiePhoto from '../images/DebbieProfesionalCroped.jpeg'; // Adjust the path as necessary
 export default function HeroSection() {
+
+  const { t } = useTranslation();
   return (
    
   <section className="relative z-10 pt-32 pb-24 px-6 text-center overflow-hidden">
@@ -21,12 +24,13 @@ export default function HeroSection() {
 
       {/* Name with animated gradient */}
       <h1 className="text-6xl md:text-8xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 animate-gradient">
-        Debbie Zuleta
+         {t("title")}
       </h1>
 
       {/* Tagline with floating animation */}
       <p className="text-xl md:text-2xl text-gray-800 max-w-2xl mx-auto bg-white/90 backdrop-blur-sm rounded-full py-3 px-8 inline-block border-2 border-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-        Mobile & FrontEnd Dev ✨ 13+ years creating apps with passion
+       {/* Mobile & FrontEnd Dev ✨ 13+ years creating apps with passion*/}
+       {t("hero_title")}
       </p>
 
        </section>        

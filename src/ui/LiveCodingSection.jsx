@@ -1,6 +1,11 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
-export default function LiveCodingSection({codeLines}) {
+export default function LiveCodingSection() {
+
+  const { t } = useTranslation();
+
+  const codeLines = t("codelines", { returnObjects: true });
   return (
      <section className="py-20 bg-black/90 relative overflow-hidden">
           <div className="absolute inset-0 opacity-20">
@@ -10,7 +15,7 @@ export default function LiveCodingSection({codeLines}) {
 
           <div className="relative z-10 container mx-auto px-6">
             <h2 className="text-4xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">
-              Live Coding
+              {t("live_coding_title")}
             </h2>
             
             <div className="mx-auto max-w-3xl bg-gray-900 rounded-xl p-1 shadow-2xl border-4 border-purple-500/50">

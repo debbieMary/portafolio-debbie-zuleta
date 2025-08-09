@@ -1,0 +1,168 @@
+{
+  "title": "Debbie Zuleta",
+  "home_title":"Inicio",
+  "skills_title": "Habilidades",
+  "projects_title": "Proyectos",
+  "contact_title": "Contacto",
+  "portfolio_title": "Destacados del Portafolio",
+  "linkedin": "LinkedIn",
+  "crafted_with": "Elaborado con",
+  "technologies": " React.js , Tailwind y CSS",
+  "all_rights_reserved": "Todos los derechos reservados.",
+  "send_me_an_email": "Envíame un correo electrónico",
+  "are_you_ready": "¿Estás listo para hacer magia juntos?",
+  "let_s_talk_about_how_i_can_help": "Hablemos sobre cómo puedo ayudar a dar vida a tus proyectos.",
+  "my_super_powers": "Mis Superpoderes",
+  "hero_title": "Desarrolladora Móvil y Front-End ✨ Más de 13 años creando aplicaciones con pasión",
+  "live_coding_title": "Codificación en Vivo",
+  "skills": [
+    {
+      "name": "Android (Java/Kotlin)",
+      "icon": "🤖",
+      "color": "bg-emerald-100 text-emerald-800",
+      "years": "13 años"
+    },
+    {
+      "name": "Flutter/Dart",
+      "icon": "🦋",
+      "color": "bg-blue-100 text-blue-800",
+      "years": "2 años"
+    },
+    {
+      "name": "React/Next.js",
+      "icon": "⚛️",
+      "color": "bg-indigo-100 text-indigo-800",
+      "years": "3 años"
+    },
+    {
+      "name": "Node.js",
+      "icon": "🚀",
+      "color": "bg-green-100 text-green-800",
+      "years": "2 años"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "🎨",
+      "color": "bg-pink-100 text-pink-800",
+      "years": "3 años"
+    },
+    {
+      "name": "Firebase",
+      "icon": "🔥",
+      "color": "bg-orange-100 text-orange-800",
+      "years": "5 años"
+    },
+    {
+      "name": "Testing",
+      "icon": "🧪",
+      "color": "bg-amber-100 text-amber-800",
+      "years": "7 años"
+    },
+    {
+      "name": "AI Tools",
+      "icon": "🧠",
+      "color": "bg-purple-100 text-purple-800",
+      "years": "2 años"
+    }
+  ],
+  "codelines": [
+    {
+      "text": "const debbieSkills = {",
+      "indent": 0,
+      "color": "text-purple-400"
+    },
+    {
+      "text": "lenguajes: ['Java', 'Kotlin', 'JavaScript', 'Dart'],",
+      "indent": 2,
+      "color": "text-blue-400"
+    },
+    {
+      "text": "frameworks o librerías: ['Android', 'Flutter', 'React', 'Next.js'],",
+      "indent": 2,
+      "color": "text-pink-400"
+    },
+    {
+      "text": "backend: ['Node.js', 'Express', 'Firebase'],",
+      "indent": 2,
+      "color": "text-green-400"
+    },
+    {
+      "text": "estilo: 'DOPAMINA EXTREMA'",
+      "indent": 2,
+      "color": "text-yellow-400"
+    },
+    { "text": "};", "indent": 0, "color": "text-purple-400" },
+    {
+      "text": "// ¡Hagamos magia juntos! ✨",
+      "indent": 0,
+      "color": "text-gray-400"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Administrador Wild Oasis",
+      "description": "Una SPA tipo panel de control para gestionar habitaciones, reservas y huéspedes con funcionalidad completa de CRUD. También incluye indicadores clave de rendimiento (KPIs) para análisis del negocio. Construida con React, Styled Components y Supabase.",
+      "testData": "usuario:wedinib949@iridales.com, contraseña:wedinib949!",
+      "tags": ["React", "Node.js", "Supabase", "Styled Components"],
+      "gradient": "bg-gradient-to-br from-pink-500 to-purple-600",
+      "src": "https://the-wild-oasis-t3uo.vercel.app"
+    },
+    {
+      "title": "Sitio Web Wild Oasis",
+      "description": "Una plataforma de reservas donde los usuarios pueden ver habitaciones, hacer reservas y gestionar sus cuentas.",
+      "tags": ["Next.js", "JavaScript", "Tailwind", "Oauth", "Supabase"],
+      "gradient": "bg-gradient-to-br from-amber-400 to-orange-500",
+      "src": "https://the-wild-oasis-website-2-pied.vercel.app"
+    },
+    {
+      "title": "Pompositienda",
+      "description": "Pompositienda es una tienda creativa que reúne diseño, dulzura y arte hecho a mano. Ofrece productos únicos elaborados con cuidado y pasión, desde creaciones de ganchillo hasta delicias totalmente naturales y más. Perfecto para quienes aman las cosas originales y sentidas.",
+      "testData": "usuario:test_user@gmail.com, contraseña:Test123@!",
+      "tags": [
+        "React.js",
+        "JavaScript",
+        "Bootstrap",
+        "Node.js",
+        "PostgreSQL",
+        "Express.js"
+      ],
+      "gradient": "bg-gradient-to-br from-pink-500 to-purple-600",
+      "src": "https://pompositienda.vercel.app"
+    },
+    {
+      "title": "Concesionaria Peoria Toyota",
+      "description": "Concesionaria Toyota es una plataforma para ver y gestionar el inventario de vehículos, programar pruebas de manejo y atender consultas de clientes.",
+      "tags": ["CMS", "JavaScript", "Bootstrap", "Css", "HTML"],
+      "gradient": "bg-gradient-to-br from-amber-400 to-orange-500",
+      "src": "https://peoriatoyota7401nallenrd2.cms.dealer.com"
+    },
+    {
+      "title": "Concesionaria Las Vegas West Cadillac",
+      "description": "Concesionaria Cadillac es una plataforma para ver y gestionar el inventario de vehículos, programar pruebas de manejo y atender consultas de clientes.",
+      "tags": ["CMS", "JavaScript", "Bootstrap", "Css", "HTML"],
+      "gradient": "bg-gradient-to-br from-pink-500 to-purple-600",
+      "src": "https://www.cadillaclasvegaswest.com"
+    },
+    {
+      "title": "Concesionaria Eric von Schledorn Ford",
+      "description": "Concesionaria Ford es una plataforma para ver y gestionar el inventario de vehículos, programar pruebas de manejo y atender consultas de clientes.",
+      "tags": ["CMS", "JavaScript", "Bootstrap", "Css", "HTML"],
+      "gradient": "bg-gradient-to-br from-amber-400 to-orange-500",
+      "src": "https://www.theforddealer.com"
+    },
+    {
+      "title": "CIOC Bolivia",
+      "description": "Un sistema de gestión integral que maneja el registro de pacientes, la programación de citas, el procesamiento de pagos y los registros médicos electrónicos (EMR), todo en una plataforma integrada diseñada para proveedores de atención médica.",
+      "tags": [".NET", "JavaScript", "React.js"],
+      "gradient": "bg-gradient-to-br from-pink-500 to-purple-600",
+      "src": "https://ciocbolivia.com"
+    },
+    {
+      "title": "Sociedad Boliviana de Otorrinolaringología – Plataforma Digital Institucional",
+      "description": "Una plataforma digital institucional diseñada para centralizar el conocimiento especializado y fortalecer la comunidad de otorrinolaringología en Bolivia.",
+      "tags": [".NET", "JavaScript", "React.js"],
+      "gradient": "bg-gradient-to-br from-amber-400 to-orange-500",
+      "src": "https://sociedadorlbolivia.com"
+    }
+  ]
+}

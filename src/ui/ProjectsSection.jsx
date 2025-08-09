@@ -1,11 +1,14 @@
-import React from 'react'
+import { useTranslation } from 'react-i18next';
 
-export default function ProjectsSection({projects}) {
+export default function ProjectsSection() {
+  const { t } = useTranslation();
+  const projects = t("projects", { returnObjects: true });
+
   return (
     <section id="projects" className="py-12 md:py-20 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 md:mb-16 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600">
-          Portfolio Highlights
+          {t("portfolio_title")}
         </h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">

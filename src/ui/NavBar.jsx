@@ -1,6 +1,12 @@
 import React from 'react'
-
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 export default function NavBar({ isOpen, setIsOpen }) {
+
+
+
+  const { t } = useTranslation();
+
   return (
      <nav className="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-purple-200 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -10,22 +16,23 @@ export default function NavBar({ isOpen, setIsOpen }) {
               <span className="text-xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
                 ✨ Debbie
               </span>
+              <LanguageSwitcher/>
             </div>
 
             {/* Menú Desktop */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-8">
                 <a href="#" className="text-purple-900 hover:text-pink-600 px-3 py-2 font-medium transition-all hover:scale-105">
-                  Home
+                    {t("home_title")}
                 </a>
                 <a href="#skills" className="text-purple-900 hover:text-pink-600 px-3 py-2 font-medium transition-all hover:scale-105">
-                  Skills
+                  {t("skills_title")}
                 </a>
                 <a href="#projects" className="text-purple-900 hover:text-pink-600 px-3 py-2 font-medium transition-all hover:scale-105">
-                  Projects
+                  {t("projects_title")}
                 </a>
                 <a href="#contact" className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-2 rounded-full font-medium shadow-lg hover:shadow-pink-300 transition-all hover:scale-105">
-                  Contact
+                  {t("contact_title")}
                 </a>
               </div>
             </div>
